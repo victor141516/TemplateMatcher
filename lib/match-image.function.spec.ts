@@ -1,6 +1,6 @@
-import * as cv from "opencv4nodejs-prebuilt";
-import {mockPartial} from "sneer";
-import {matchImages} from "./match-image.function";
+import * as cv from "@u4/opencv4nodejs";
+import { mockPartial } from "sneer";
+import { matchImages } from "./match-image.function";
 
 jest.mock('jimp', () => {});
 

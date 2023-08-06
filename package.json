@@ -43,13 +43,12 @@
     "publish-next": "npm publish --tag next",
     "prepublishOnly": "npm run compile"
   },
-  "dependencies": {
-    "opencv4nodejs-prebuilt": "5.3.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@nut-tree/nut-js": "3.0.0",
     "@types/jest": "29.2.6",
     "@types/node": "18.11.18",
+    "@u4/opencv4nodejs": "^6.5.2",
     "jest": "29.3.1",
     "rimraf": "3.0.2",
     "sneer": "1.0.1",

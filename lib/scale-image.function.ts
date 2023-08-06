@@ -1,5 +1,5 @@
-import * as cv from "opencv4nodejs-prebuilt";
-import {lowerBound} from "./bound-value.function";
+import * as cv from "@u4/opencv4nodejs";
+import { lowerBound } from "./bound-value.function";
 
 export async function scaleImage(image: cv.Mat, scaleFactor: number): Promise<cv.Mat> {
     const boundScaleFactor = lowerBound(scaleFactor, 0.0, 1.0);

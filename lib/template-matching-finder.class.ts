@@ -1,10 +1,10 @@
-import * as cv from "opencv4nodejs-prebuilt";
-import {Image, ImageFinderInterface, MatchRequest, MatchResult} from "@nut-tree/nut-js";
-import {matchImages} from "./match-image.function";
-import {scaleImage} from "./scale-image.function";
-import {scaleLocation} from "./scale-location.function";
-import {fromImageWithAlphaChannel} from "./image-processor.class";
-import {TemplateMatcherProviderData} from "../index";
+import { Image, ImageFinderInterface, MatchRequest, MatchResult } from "@nut-tree/nut-js";
+import * as cv from "@u4/opencv4nodejs";
+import { TemplateMatcherProviderData } from "../index";
+import { fromImageWithAlphaChannel } from "./image-processor.class";
+import { matchImages } from "./match-image.function";
+import { scaleImage } from "./scale-image.function";
+import { scaleLocation } from "./scale-location.function";
 
 async function loadNeedle(image: Image): Promise<cv.Mat> {
     return fromImageWithAlphaChannel(image);
