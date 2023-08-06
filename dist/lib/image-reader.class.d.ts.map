@@ -1,0 +1,1 @@
+{"version":3,"file":"image-reader.class.d.ts","sourceRoot":"","sources":["../../lib/image-reader.class.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,EAAE,WAAW,EAAE,MAAM,kBAAkB,CAAC;AAGtD,MAAM,CAAC,OAAO,MAAO,YAAW,WAAW;IAC1B,IAAI,CAAC,IAAI,EAAE,MAAM,GAAG,OAAO,CAAC,KAAK,CAAC;CAoBlD"}
